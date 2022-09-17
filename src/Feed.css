@@ -1,0 +1,46 @@
+.feed {
+    flex:0.6;
+    margin: 0 20px;
+}
+
+.feed__inputContainer {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feed__input {
+    border: 1px solid lightgray;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    padding-left: 15px;
+}
+
+.feed__input > form {
+    display: flex;
+    width: 100%;
+}
+
+.feed__input > form > input {
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    border: none;
+    font-weight: 600;
+}
+
+
+.feed__input > form > button {
+    display: none;
+    /* FIXME: By making button display none the button will not display on the screen but as soon as you hit the enter button it will submits the form */
+}
+
+
+.feed__inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+}
