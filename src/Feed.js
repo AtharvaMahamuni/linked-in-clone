@@ -26,7 +26,7 @@ function Feed() {
         </div>
       </div>
 
-      {/* Posts */}
+      {/* Posts  */}
 
     </div>
   )
